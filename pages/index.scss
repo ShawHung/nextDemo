@@ -1,0 +1,27 @@
+.nav-ul{
+    @apply h-full flex flex-row justify-around;
+    >li{
+        @apply h-full;
+        >a{
+            @apply h-full flex items-center font-serif text-3xl antialiased text-blue-500 tracking-widest;
+            &:hover{
+                @apply underline font-medium text-gray-500
+            }
+        }
+    }
+}
+.main-section{
+    @apply h-5/6 flex flex-wrap flex-col justify-around content-around;
+    .banner{
+        @apply flex  justify-between items-center h-36 w-3/4;
+        >span{
+            width: 14rem !important;
+        }
+    }
+    .content{
+        @apply flex  justify-between items-center h-72 w-3/4;
+    }
+    .sider{
+        @apply flex flex-col justify-around items-center h-full w-1/5 justify-items-end
+    }
+}

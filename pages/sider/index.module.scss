@@ -1,0 +1,9 @@
+.avatar{
+    @apply rounded-full bg-red-300;
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+.skillPanel{
+    @apply w-48 h-60 rounded-xl bg-orange-500;
+}
